@@ -1,0 +1,23 @@
+.tree-menu-item {
+  display: flex;
+  padding-bottom: 8px;
+  :hover {
+    cursor: pointer;
+  }
+
+  .icon-chevron {
+    padding-right: 4px;
+
+    .rotate-icon {
+      transform: rotate(90deg);
+    }
+  }
+
+  .dotMark {
+    padding-right: 4px;
+  }
+}
+
+.tree-menu-item-child-list {
+  padding-left: 0;
+}
